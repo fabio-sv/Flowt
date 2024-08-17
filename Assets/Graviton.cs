@@ -51,8 +51,8 @@ public class Graviton : MonoBehaviour
     [SerializeField] bool isAttractor;//field
     [SerializeField] bool isAttractee;//field
 
-    [SerializeField] Vector3 initialVelocity;
-    [SerializeField] bool applyInitialVelocityOnStart;
+    [SerializeField] public Vector3 initialVelocity;
+    [SerializeField] public bool applyInitialVelocityOnStart;
     void Awake()
     {
         rigidBody = this.GetComponent<Rigidbody2D>();

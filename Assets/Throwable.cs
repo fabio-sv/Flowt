@@ -21,6 +21,8 @@ public class Throwable : MonoBehaviour
     void OnMouseDown()
     {
         CalculateThrowVector();
+
+        //Debug.Log($"instance id: {this.gameObject.GetInstanceID()}");
         // Path.StartVisualizingPath(this.gameObject);
         PathHandler.StartVisualizingPath(this.gameObject);
     }
@@ -52,5 +54,14 @@ public class Throwable : MonoBehaviour
         _rb.AddForce(throwVector,ForceMode2D.Impulse);
         Debug.Log(_rb.velocity);
         this.GetComponent<Graviton>().IsAttractee = true;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.name.StartsWith("Attractor")) // lol
+        {
+            Debug.Log("Hit the attractor!!!");
+            Destroy(this.gameObject);
+        }
     }
 }

@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering;
 
@@ -23,6 +25,7 @@ public class PathHandler : MonoBehaviour
             clone = Instantiate(throwableGameObject, throwableGameObject.transform.position, Quaternion.identity);
 
         clone.GetComponent<SpriteRenderer>().enabled = false;
+        clone.GetComponent<TextUpdater>().enabled = false;
 
         GravityHandler.attractees.Remove(throwableGameObject.GetComponent<Rigidbody2D>());
         GravityHandler.attractors.Remove(throwableGameObject.GetComponent<Rigidbody2D>());
