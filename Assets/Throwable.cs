@@ -61,7 +61,7 @@ public class Throwable : MonoBehaviour
         if (collision.gameObject.name.StartsWith("Attractor")) // lol
         {
             Debug.Log("Hit the attractor!!!");
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
         }
     }
 }

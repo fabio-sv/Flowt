@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timer < spawnRate)
+       /* if (timer < spawnRate)
         {
             timer += Time.deltaTime;
         }
@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
 
             timer = 0;
         }
-
+*/
         //if (Input.GetMouseButtonDown(0))
         //{
         //    Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
