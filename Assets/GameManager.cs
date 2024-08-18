@@ -1,13 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class GameManager : MonoBehaviour
 {
     public GameObject planet;
+    public GameObject gameOverScreen;
 
     public float spawnRate = 1;
+    public bool enableSpawn = true;
     private float timer = 0;
+
+    public CanvasGroup fadingCanvasGroup;
+    private bool isFaded = false;
+
+    public void fader()
+    {
+        isFaded = !isFaded;
+
+        if (isFaded)
+        {
+            fadingCanvasGroup.DOFade(1, 2);
+        }
+        else
+        {
+            fadingCanvasGroup.DOFade(0, 2);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +39,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!enableSpawn)
+        {
+            return;
+        }
+
         if (timer < spawnRate)
         {
             timer += Time.deltaTime;
@@ -35,6 +61,12 @@ public class GameManager : MonoBehaviour
 
             SpriteRenderer sprite = obj.GetComponent<SpriteRenderer>();
             sprite.color = randomColor();
+
+            TrailRenderer trail = obj.GetComponentInChildren<TrailRenderer>(true);
+            trail.enabled = true;
+
+            // TrailRenderer trail = obj.GetComponent<TrailRenderer();
+
 
             timer = 0;
         }
@@ -72,5 +104,16 @@ public class GameManager : MonoBehaviour
     Vector3 getOrthogonal(Vector3 input)
     {
         return new Vector3(-input.y * 2, input.x * 2, 0);
+    }
+
+    public void restartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void gameOver()
+    {
+        fader();
+        gameOverScreen.SetActive(true);
     }
 }

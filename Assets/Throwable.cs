@@ -9,9 +9,29 @@ public class Throwable : MonoBehaviour
     Rigidbody2D _rb;
     [SerializeField] Vector3 throwVelocity;
     public Vector3 velocity;
+    private int timeAlive = 0;
+    private float timer = 0f;
+    private float delayAmount = 1;
+    public GameObject gameManager;
+
+    public int getTimeAlive() {  return timeAlive; }
+
     void Update()
     {
         velocity = _rb.velocity;
+
+        if (TextUpdater.effectiveVelocity(velocity) == 0)
+        {
+            return;
+        }
+
+        timer += Time.deltaTime;
+
+        if (timer >= delayAmount)
+        {
+            timer = 0f;
+            timeAlive++;
+        }
     }
     void Awake()
     {
@@ -58,10 +78,13 @@ public class Throwable : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name.StartsWith("Attractor")) // lol
+        if (collision.gameObject.name.StartsWith("Attractor") && !this.name.Contains("Clone")) // lol
         {
-            Debug.Log("Hit the attractor!!!");
-            //Destroy(this.gameObject);
+            Debug.Log($"Hit the attractor!!! {this.name}");
+            Destroy(this.gameObject);
+
+            GameManager gm = gameManager.GetComponent<GameManager>();
+            gm.gameOver();
         }
     }
 }
