@@ -45,12 +45,20 @@ public class PathHandler : MonoBehaviour
 
         List<Vector3> pathPoints = new List<Vector3>();
         int simulationSteps = 300;
+        Vector3 pos = Vector3.zero;
         for (int i = 1; i < simulationSteps; i++)
         {
             GravityHandler.SimulateGravities();
             Physics2D.Simulate(Time.fixedDeltaTime);
 
-            pathPoints.Add(cloneRigidBody.transform.position);
+            pos = cloneRigidBody.transform.position;
+
+            if( pos == new Vector3(0, 0, 0))
+            {
+                break;
+            }
+
+            pathPoints.Add(pos);
         }
 
         //set stored positions from simulation as linerenderer positions

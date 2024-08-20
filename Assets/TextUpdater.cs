@@ -24,7 +24,7 @@ public class TextUpdater : MonoBehaviour
 
         if (velocity != 0)
         {
-            text.text = $"v={velocity} km.s<sup>-1</sup>\nage={life}s";
+            text.text = $"v = {velocity}km.s<sup>-1</sup>\nt = {life}s";
         }
     }
 
