@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
     public CanvasGroup fadingCanvasGroup;
     private bool isFaded = false;
 
+    private int interactions = 0;
+
     public void fader()
     {
         isFaded = !isFaded;
@@ -39,37 +41,37 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!enableSpawn)
-        {
-            return;
-        }
+        //if (!enableSpawn)
+        //{
+        //    return;
+        //}
 
-        if (timer < spawnRate)
-        {
-            timer += Time.deltaTime;
-        }
-        else
-        {
-            Vector3 v3 = new Vector3(randomNumber(), randomNumber(), 0);
-            Vector3 normal = getOrthogonal(v3);
+        //if (timer < spawnRate)
+        //{
+        //    timer += Time.deltaTime;
+        //}
+        //else
+        //{
+        //    Vector3 v3 = new Vector3(randomNumber(), randomNumber(), 0);
+        //    Vector3 normal = getOrthogonal(v3);
 
-            GameObject obj = Instantiate(planet, v3, Quaternion.identity);
+        //    GameObject obj = Instantiate(planet, v3, Quaternion.identity);
 
-            Graviton graviton = obj.GetComponent<Graviton>();
-            graviton.initialVelocity = normal;
-            graviton.applyInitialVelocityOnStart = true;
+        //    Graviton graviton = obj.GetComponent<Graviton>();
+        //    graviton.initialVelocity = normal;
+        //    graviton.applyInitialVelocityOnStart = true;
 
-            SpriteRenderer sprite = obj.GetComponent<SpriteRenderer>();
-            sprite.color = randomColor();
+        //    SpriteRenderer sprite = obj.GetComponent<SpriteRenderer>();
+        //    sprite.color = randomColor();
 
-            TrailRenderer trail = obj.GetComponentInChildren<TrailRenderer>(true);
-            trail.enabled = true;
+        //    TrailRenderer trail = obj.GetComponentInChildren<TrailRenderer>(true);
+        //    trail.enabled = true;
 
-            // TrailRenderer trail = obj.GetComponent<TrailRenderer();
+        //    // TrailRenderer trail = obj.GetComponent<TrailRenderer();
 
 
-            timer = 0;
-        }
+        //    timer = 0;
+        //}
 
         //if (Input.GetMouseButtonDown(0))
         //{
@@ -106,14 +108,26 @@ public class GameManager : MonoBehaviour
         return new Vector3(-input.y * 2, input.x * 2, 0);
     }
 
-    public void restartGame()
+    public void startGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        const string GAME_SCENE = "Gravity";
+        SceneManager.LoadScene(GAME_SCENE);
     }
 
     public void gameOver()
     {
         fader();
         gameOverScreen.SetActive(true);
+    }
+
+    public void interacted()
+    {
+        interactions++;
+        GameObject suggestionsCanvas = GameObject.Find("SuggestionsCanvas");
+
+        if (interactions > 0 && suggestionsCanvas.activeInHierarchy)
+        {
+            suggestionsCanvas.SetActive(false);
+        }
     }
 }

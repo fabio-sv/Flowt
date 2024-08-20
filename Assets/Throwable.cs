@@ -40,6 +40,9 @@ public class Throwable : MonoBehaviour
     //onmouse events possible thanks to monobehaviour + collider2d
     void OnMouseDown()
     {
+        GameManager gm = gameManager.GetComponent<GameManager>();
+        gm.interacted();
+
         CalculateThrowVector();
 
         //Debug.Log($"instance id: {this.gameObject.GetInstanceID()}");
