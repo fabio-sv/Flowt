@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    private bool gameIsOver = false;
     public GameObject planet;
     public GameObject gameOverScreen;
 
@@ -17,6 +19,11 @@ public class GameManager : MonoBehaviour
     private bool isFaded = false;
 
     private int interactions = 0;
+
+    private Throwable toy;
+
+    public float xBound = 4f;
+    public float yBound = 2.5f;
 
     public void fader()
     {
@@ -32,55 +39,24 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
     void Start()
     {
-        
+        toy = GameObject.Find("Throwable").GetComponent<Throwable>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        //if (!enableSpawn)
-        //{
-        //    return;
-        //}
+        if (gameIsOver)
+        {
+            return;
+        }
 
-        //if (timer < spawnRate)
-        //{
-        //    timer += Time.deltaTime;
-        //}
-        //else
-        //{
-        //    Vector3 v3 = new Vector3(randomNumber(), randomNumber(), 0);
-        //    Vector3 normal = getOrthogonal(v3);
+        Vector3 position = toy.transform.position;
 
-        //    GameObject obj = Instantiate(planet, v3, Quaternion.identity);
-
-        //    Graviton graviton = obj.GetComponent<Graviton>();
-        //    graviton.initialVelocity = normal;
-        //    graviton.applyInitialVelocityOnStart = true;
-
-        //    SpriteRenderer sprite = obj.GetComponent<SpriteRenderer>();
-        //    sprite.color = randomColor();
-
-        //    TrailRenderer trail = obj.GetComponentInChildren<TrailRenderer>(true);
-        //    trail.enabled = true;
-
-        //    // TrailRenderer trail = obj.GetComponent<TrailRenderer();
-
-
-        //    timer = 0;
-        //}
-
-        //if (Input.GetMouseButtonDown(0))
-        //{
-        //    Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        //    Debug.Log($"mouse down: {mousePos.ToString()}");
-
-        //    transform.position = mousePos;
-        //    Instantiate(planet, transform);
-        //}
+        if (Mathf.Abs(position.x) > xBound || Mathf.Abs(position.y) > yBound)
+        {
+            this.gameOver();
+        }
     }
 
     float randomNumber()
@@ -90,8 +66,6 @@ public class GameManager : MonoBehaviour
 
     Color randomColor()
     {
-        //return new Color(randomNumber(), randomNumber(), randomNumber());
-
         Color[] colors = {
             new Color(165f / 255f, 214f / 255f, 175f / 255f),
             new Color(166f / 255f, 145f / 255f, 219f/ 255f),
@@ -116,8 +90,13 @@ public class GameManager : MonoBehaviour
 
     public void gameOver()
     {
-        fader();
+        gameIsOver = true;
+        toy.Pause();
         gameOverScreen.SetActive(true);
+
+        TMP_Text scoreText = GameObject.Find("ScoreText").GetComponent<TMP_Text>();
+
+        scoreText.text = $"t = {toy.getTimeAlive().ToString()}s";
     }
 
     public void interacted()

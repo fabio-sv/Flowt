@@ -13,11 +13,17 @@ public class Throwable : MonoBehaviour
     private float timer = 0f;
     private float delayAmount = 1;
     public GameObject gameManager;
+    private bool isDead = false;
 
     public int getTimeAlive() {  return timeAlive; }
 
     void Update()
     {
+        if (isDead)
+        {
+            return;
+        }
+
         velocity = _rb.velocity;
 
         if (TextUpdater.effectiveVelocity(velocity) == 0)
@@ -77,6 +83,11 @@ public class Throwable : MonoBehaviour
         _rb.AddForce(throwVector,ForceMode2D.Impulse);
         Debug.Log(_rb.velocity);
         this.GetComponent<Graviton>().IsAttractee = true;
+    }
+
+    public void Pause()
+    {
+        isDead = true;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
