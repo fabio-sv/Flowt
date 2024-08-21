@@ -1,0 +1,2744 @@
+[
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[TAPS] Resetting connected variable",
+        "time": "2024-08-21T11:31:07.629Z",
+        "exception": "null",
+        "objects": "[{}]",
+        "line": 0,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] SpeakerDeviceId is updated to default in localStorage",
+        "time": "2024-08-21T11:31:07.894Z",
+        "exception": "null",
+        "objects": "[]",
+        "line": 1,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] MicrophoneDeviceId is updated to default in localStorage",
+        "time": "2024-08-21T11:31:07.894Z",
+        "exception": "null",
+        "objects": "[]",
+        "line": 2,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] RingerDeviceId is updated to default in localStorage",
+        "time": "2024-08-21T11:31:07.894Z",
+        "exception": "null",
+        "objects": "[]",
+        "line": 3,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Video Device Settings] CameraDeviceId is updated to  in localStorage",
+        "time": "2024-08-21T11:31:07.894Z",
+        "exception": "null",
+        "objects": "[]",
+        "line": 4,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Video Device Settings] Background Blur is set to false in localStorage",
+        "time": "2024-08-21T11:31:07.894Z",
+        "exception": "null",
+        "objects": "[]",
+        "line": 5,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "Shared worker migration options: Request initiated.",
+        "time": "2024-08-21T11:31:08.076Z",
+        "exception": "null",
+        "objects": "[{\"endpoint\":\"/shared-worker/sw_migration.json\",\"documentLocation\":\"https://219572819009-connect.my.connect.aws/ccp-v2\",\"startTime\":\"2024-08-21T11:31:08.076Z\"}]",
+        "line": 6,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "Shared worker migration options: Request completed.",
+        "time": "2024-08-21T11:31:08.123Z",
+        "exception": "null",
+        "objects": "[{\"endpoint\":\"/shared-worker/sw_migration.json\",\"documentLocation\":\"https://219572819009-connect.my.connect.aws/ccp-v2\",\"startTime\":\"2024-08-21T11:31:08.076Z\",\"endTime\":\"2024-08-21T11:31:08.123Z\",\"latency\":47}]",
+        "line": 7,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[SharedWorker] Existing session, using stored location: /shared-worker/worker.js",
+        "time": "2024-08-21T11:31:08.124Z",
+        "exception": "null",
+        "objects": "[]",
+        "line": 8,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+        "time": "2024-08-21T11:31:08.126Z",
+        "exception": "null",
+        "objects": "[]",
+        "line": 9,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "isCCPv2: true",
+        "time": "2024-08-21T11:31:08.126Z",
+        "exception": "null",
+        "objects": "[]",
+        "line": 10,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "isFramed: false",
+        "time": "2024-08-21T11:31:08.126Z",
+        "exception": "null",
+        "objects": "[]",
+        "line": 11,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Ringtone Engine] initRingtoneEngine started",
+        "time": "2024-08-21T11:31:08.128Z",
+        "exception": "null",
+        "objects": "[{\"params\":{\"refreshToken\":\"NA\",\"authorizeEndpoint\":\"/auth/authorize\",\"sharedWorkerUrl\":\"/shared-worker/worker.js\",\"ringtone\":{\"voice\":{\"disabled\":false,\"ringtoneUrl\":\"/connect/ccp-naws/static/audios/ringtone.fbda617e..mp3\"},\"chat\":{\"disabled\":false,\"ringtoneUrl\":\"/connect/ccp-naws/static/audios/ringtone.fbda617e..mp3\"},\"task\":{\"disabled\":false,\"ringtoneUrl\":\"/connect/ccp-naws/static/audios/ringtone.fbda617e..mp3\"}},\"endpoint\":\"219572819009-connect.my.connect.aws/api\",\"authCookieName\":\"lily-auth-prod-cpt\",\"pageOptions\":{\"enablePhoneTypeSettings\":true,\"enableAudioDeviceSettings\":false,\"enableVideoDeviceSettings\":false},\"agentAppEndpoint\":\"219572819009-connect.my.connect.aws/agent-app/api\",\"taskTemplatesEndpoint\":\"219572819009-connect.my.connect.aws/task-templates/api/ccp\",\"authToken\":\"[redacted]\",\"region\":\"af-south-1\",\"authTokenExpiration\":1724243468034,\"loginEndpoint\":\"/login?landat=/ccp-v2\",\"longPollingOptions\":{\"allowLongPollingShadowMode\":false,\"allowLongPollingWebsocketOnlyMode\":false}}}]",
+        "line": 12,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Softphone Manager] initSoftphoneManager started",
+        "time": "2024-08-21T11:31:08.128Z",
+        "exception": "null",
+        "objects": "[{\"paramsIn\":{\"refreshToken\":\"NA\",\"authorizeEndpoint\":\"/auth/authorize\",\"sharedWorkerUrl\":\"/shared-worker/worker.js\",\"ringtone\":{\"voice\":{\"disabled\":false,\"ringtoneUrl\":\"/connect/ccp-naws/static/audios/ringtone.fbda617e..mp3\"},\"chat\":{\"disabled\":false,\"ringtoneUrl\":\"/connect/ccp-naws/static/audios/ringtone.fbda617e..mp3\"},\"task\":{\"disabled\":false,\"ringtoneUrl\":\"/connect/ccp-naws/static/audios/ringtone.fbda617e..mp3\"},\"queue_callback\":{\"disabled\":false,\"ringtoneUrl\":\"/connect/ccp-naws/static/audios/ringtone.fbda617e..mp3\"},\"email\":{\"disabled\":true}},\"endpoint\":\"219572819009-connect.my.connect.aws/api\",\"authCookieName\":\"lily-auth-prod-cpt\",\"pageOptions\":{\"enablePhoneTypeSettings\":true,\"enableAudioDeviceSettings\":false,\"enableVideoDeviceSettings\":false},\"agentAppEndpoint\":\"219572819009-connect.my.connect.aws/agent-app/api\",\"taskTemplatesEndpoint\":\"219572819009-connect.my.connect.aws/task-templates/api/ccp\",\"authToken\":\"[redacted]\",\"region\":\"af-south-1\",\"authTokenExpiration\":1724243468034,\"loginEndpoint\":\"/login?landat=/ccp-v2\",\"longPollingOptions\":{\"allowLongPollingShadowMode\":false,\"allowLongPollingWebsocketOnlyMode\":false}}}]",
+        "line": 13,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Softphone Manager] competeForMasterOnAgentUpdate executed",
+        "time": "2024-08-21T11:31:08.128Z",
+        "exception": "null",
+        "objects": "[{\"softphoneParams\":{\"refreshToken\":\"NA\",\"authorizeEndpoint\":\"/auth/authorize\",\"sharedWorkerUrl\":\"/shared-worker/worker.js\",\"ringtone\":{\"voice\":{\"disabled\":false,\"ringtoneUrl\":\"/connect/ccp-naws/static/audios/ringtone.fbda617e..mp3\"},\"chat\":{\"disabled\":false,\"ringtoneUrl\":\"/connect/ccp-naws/static/audios/ringtone.fbda617e..mp3\"},\"task\":{\"disabled\":false,\"ringtoneUrl\":\"/connect/ccp-naws/static/audios/ringtone.fbda617e..mp3\"},\"queue_callback\":{\"disabled\":false,\"ringtoneUrl\":\"/connect/ccp-naws/static/audios/ringtone.fbda617e..mp3\"},\"email\":{\"disabled\":true}},\"endpoint\":\"219572819009-connect.my.connect.aws/api\",\"authCookieName\":\"lily-auth-prod-cpt\",\"pageOptions\":{\"enablePhoneTypeSettings\":true,\"enableAudioDeviceSettings\":false,\"enableVideoDeviceSettings\":false},\"agentAppEndpoint\":\"219572819009-connect.my.connect.aws/agent-app/api\",\"taskTemplatesEndpoint\":\"219572819009-connect.my.connect.aws/task-templates/api/ccp\",\"authToken\":\"[redacted]\",\"region\":\"af-south-1\",\"authTokenExpiration\":1724243468034,\"loginEndpoint\":\"/login?landat=/ccp-v2\",\"longPollingOptions\":{\"allowLongPollingShadowMode\":false,\"allowLongPollingWebsocketOnlyMode\":false}}}]",
+        "line": 14,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "Acknowledged by the ConnectSharedWorker!",
+        "time": "2024-08-21T11:31:08.460Z",
+        "exception": "null",
+        "objects": "[]",
+        "line": 15,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: update_connected_ccps",
+        "time": "2024-08-21T11:31:08.460Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "Number of connected CCPs updated: 1",
+        "time": "2024-08-21T11:31:08.461Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 16,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: update_connected_ccps",
+        "time": "2024-08-21T11:31:08.467Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "Number of connected CCPs updated: 1",
+        "time": "2024-08-21T11:31:08.467Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 17,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Device Settings] Call updateDeviceList with getUserMedia",
+        "time": "2024-08-21T11:31:08.494Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 18,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] New Audio Input DeviceList is updated to [{\"deviceId\":\"default\",\"kind\":\"audioinput\",\"label\":\"Default - Microphone Array (Realtek(R) Audio)\",\"groupId\":\"49cb20c3dbab07e9688ce6627f3ba633944737b8f8a5bd11c1a0d2f5b790b8fc\"},{\"deviceId\":\"communications\",\"kind\":\"audioinput\",\"label\":\"Communications - Headset (2- WF-C700N) (Bluetooth)\",\"groupId\":\"8cdf3e2d5cb97b05b90b2eb98e6a35bb91cdc12517fc960b6c52c85f338cca8d\"},{\"deviceId\":\"5958d14da4bccc8380d50f6028b4f32a49d757b86a1a6b3e6313d998b06dc7bc\",\"kind\":\"audioinput\",\"label\":\"Headset (2- WF-C700N) (Bluetooth)\",\"groupId\":\"8cdf3e2d5cb97b05b90b2eb98e6a35bb91cdc12517fc960b6c52c85f338cca8d\"},{\"deviceId\":\"5f7c2d1084d5a7438236f917235b6a61d2b5dde083ae06f38507e8dcd364a0b4\",\"kind\":\"audioinput\",\"label\":\"Microphone Array (Realtek(R) Audio)\",\"groupId\":\"49cb20c3dbab07e9688ce6627f3ba633944737b8f8a5bd11c1a0d2f5b790b8fc\"}]",
+        "time": "2024-08-21T11:31:08.534Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 19,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] New Audio Output DeviceList is updated to [{\"deviceId\":\"5ffca12feb59c049f530a9a821cc953476d8eb064b509f6eb4c84fb0d9a7d982\",\"kind\":\"audiooutput\",\"label\":\"Speakers (Realtek(R) Audio)\",\"groupId\":\"49cb20c3dbab07e9688ce6627f3ba633944737b8f8a5bd11c1a0d2f5b790b8fc\"},{\"deviceId\":\"communications\",\"kind\":\"audiooutput\",\"label\":\"Communications - Headphones (2- WF-C700N) (Bluetooth)\",\"groupId\":\"2b76c5e3b384e247dd8bba8943ea4bdb8946d54b78097f85535e79b311c15cab\"},{\"deviceId\":\"9b0c34bb5d364e3016babd2b28f788c6c668d406927a38ade5fb1cddb675052c\",\"kind\":\"audiooutput\",\"label\":\"Headphones (2- WF-C700N) (Bluetooth)\",\"groupId\":\"2b76c5e3b384e247dd8bba8943ea4bdb8946d54b78097f85535e79b311c15cab\"},{\"deviceId\":\"default\",\"kind\":\"audiooutput\",\"label\":\"Default - Headphones (2- WF-C700N) (Bluetooth)\",\"groupId\":\"2b76c5e3b384e247dd8bba8943ea4bdb8946d54b78097f85535e79b311c15cab\"},{\"deviceId\":\"c2a84f6c2fe9ab173c03fb0ed8c73d145c9f84d13cf8c1fdb74aff815aee6a4a\",\"kind\":\"audiooutput\",\"label\":\"DELL S2721HN (5- HD Audio Driver for Display Audio)\",\"groupId\":\"73baae5ced30a2490c45d9f13d32eec724c905c2202cf66a8eba238bdd9b7a84\"}]",
+        "time": "2024-08-21T11:31:08.534Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 20,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: agent::update",
+        "time": "2024-08-21T11:31:08.677Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": null,
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: agent::init",
+        "time": "2024-08-21T11:31:08.677Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "getDomainId called",
+        "time": "2024-08-21T11:31:08.678Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[{\"InstanceId\":\"593b5508-a3ad-4596-8f50-53e5cee98275\",\"IntegrationType\":\"VOICE_ID\"}]",
+        "line": 21,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Sending API_REQUEST event for AgentAppService.Acs.listIntegrationAssociations to upstream",
+        "time": "2024-08-21T11:31:08.678Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[{\"method\":\"AgentAppService.Acs.listIntegrationAssociations\",\"params\":{\"InstanceId\":\"593b5508-a3ad-4596-8f50-53e5cee98275\",\"IntegrationType\":\"VOICE_ID\"},\"stack\":\"Error\\n    at a._callImpl (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:389372)\\n    at o.call (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:388333)\\n    at https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:86664\\n    at new Promise (<anonymous>)\\n    at h.getDomainId (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:86315)\\n    at v.f (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:441316)\\n    at https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:478651\\n    at Array.forEach (<anonymous>)\\n    at b.trigger (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:478624)\\n    at k.updateAgentData (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:460278)\"}]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "LOG",
+        "text": "[UserMediaProvider] Initializing",
+        "time": "2024-08-21T11:31:08.678Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 22,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "LOG",
+        "text": "[UserMediaProvider] EarlyGUM enabled",
+        "time": "2024-08-21T11:31:08.678Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 23,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "LOG",
+        "text": "[UserMediaProvider][earlyGUM] refresh Early Gum MediaStream called",
+        "time": "2024-08-21T11:31:08.678Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 24,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "LOG",
+        "text": "[UserMediaProvider][earlyGUM] cleanup Precaptured MediaStream",
+        "time": "2024-08-21T11:31:08.678Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 25,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "LOG",
+        "text": "[UserMediaProvider][earlyGUM] earlyGumRefreshJob started",
+        "time": "2024-08-21T11:31:08.678Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 26,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "Browser: Chrome Version: 127",
+        "time": "2024-08-21T11:31:08.685Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 27,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "Inner/CCP Streams Version: 1.7.4 Outer/Public Streams Version: null",
+        "time": "2024-08-21T11:31:08.685Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 28,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] Updating speakerDeviceId due to speakerDeviceId: default, audioOutputDevices, isAgentInitialized: true, or hasAudioDeviceSettingsEnabled(): true being updated.",
+        "time": "2024-08-21T11:31:08.687Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 29,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] CCPUI calls Streams API setSpeakerDevice with default",
+        "time": "2024-08-21T11:31:08.688Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 30,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] Updating ringerDeviceId due to ringerDeviceId: default, audioOutputDevices, isAgentInitialized: true, or hasAudioDeviceSettingsEnabled(): true being updated.",
+        "time": "2024-08-21T11:31:08.688Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 31,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] CCPUI calls Streams API setRingerDevice with default",
+        "time": "2024-08-21T11:31:08.688Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 32,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: agent::refresh",
+        "time": "2024-08-21T11:31:08.717Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Softphone Manager] agent refresh handler executed",
+        "time": "2024-08-21T11:31:08.717Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 33,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: agent::offline",
+        "time": "2024-08-21T11:31:08.717Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: agent::state_change",
+        "time": "2024-08-21T11:31:08.717Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[TAPS] Connected to the Shared Worker",
+        "time": "2024-08-21T11:31:08.718Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 34,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "LOG",
+        "text": "[UserMediaProvider][earlyGUM] refresh Early Gum MediaStream skipped due to not a softphone master",
+        "time": "2024-08-21T11:31:08.725Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 35,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: mute",
+        "time": "2024-08-21T11:31:08.725Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[AgentMuteToggle] Received MUTE event, nextMuteState: undefined",
+        "time": "2024-08-21T11:31:08.725Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 36,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: configuration::set_speaker_device",
+        "time": "2024-08-21T11:31:08.725Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: configuration::set_ringer_device",
+        "time": "2024-08-21T11:31:08.725Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] Attempting to set ringer device default",
+        "time": "2024-08-21T11:31:08.725Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 37,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] setRingerDevice called before ringtone engine is initialized",
+        "time": "2024-08-21T11:31:08.725Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 38,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "WARN",
+        "text": "[Audio Device Settings] stored device Id for later use, once ringtone engine is up.",
+        "time": "2024-08-21T11:31:08.725Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 39,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: agent::websocket_connection_gained",
+        "time": "2024-08-21T11:31:08.725Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: webSocket::connection_gain",
+        "time": "2024-08-21T11:31:08.726Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: webSocket::connection_open",
+        "time": "2024-08-21T11:31:08.726Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "VoiceRingtoneEngine initialized.",
+        "time": "2024-08-21T11:31:08.726Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 40,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ChatRingtoneEngine initialized.",
+        "time": "2024-08-21T11:31:08.726Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 41,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "TaskRingtoneEngine initialized.",
+        "time": "2024-08-21T11:31:08.726Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 42,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "QueueCallbackRingtoneEngine initialized.",
+        "time": "2024-08-21T11:31:08.727Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 43,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] Attempting to set ringer device default",
+        "time": "2024-08-21T11:31:08.727Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 44,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Softphone Manager] confirmed as softphone master topic",
+        "time": "2024-08-21T11:31:08.727Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 45,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "softphone",
+        "level": "INFO",
+        "text": " [Softphone Manager] softphone manager initialization has begun",
+        "time": "2024-08-21T11:31:08.727Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 46,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "softphone",
+        "level": "INFO",
+        "text": " [Softphone Manager] earlyGum mechanism enabled",
+        "time": "2024-08-21T11:31:08.727Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 47,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "softphone",
+        "level": "INFO",
+        "text": " [Softphone Manager] GUM race mechanism NOT enabled",
+        "time": "2024-08-21T11:31:08.727Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 48,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "softphone",
+        "level": "INFO",
+        "text": " [SoftphoneManager] Client Provided Strategy: undefined",
+        "time": "2024-08-21T11:31:08.727Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 49,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Sending API_REQUEST event for createTransport to upstream",
+        "time": "2024-08-21T11:31:08.728Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[{\"method\":\"createTransport\",\"params\":{\"transportType\":\"softphone\",\"softphoneClientId\":\"1724239867504-spqvle6d33r\"},\"stack\":\"Error\\n    at a._callImpl (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:389372)\\n    at o.call (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:388333)\\n    at https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:565983\\n    at new Promise (<anonymous>)\\n    at r.U (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:565937)\\n    at e._requestIceAccess (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:633124)\\n    at e.value (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/lily-rtc.63eb3bf4.js:2:591638)\\n    at new e (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/lily-rtc.63eb3bf4.js:2:590101)\\n    at r._refreshRtcPeerConnectionFactory (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:568002)\\n    at new r (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:569624)\"}]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "softphone",
+        "level": "LOG",
+        "text": " RTC.js is using StandardStrategy",
+        "time": "2024-08-21T11:31:08.729Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": null,
+        "objects": [],
+        "line": 50,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "agent.getConfiguration() retrieved agentId is e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "time": "2024-08-21T11:31:08.729Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[TAPS] Received request to postMessage msg",
+        "time": "2024-08-21T11:31:08.729Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[{\"event\":\"AgentStateChange\",\"data\":{\"oldState\":\"Init\",\"newState\":\"Offline\",\"agentId\":\"e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4\",\"agent\":{\"snapshot\":{\"state\":{\"agentStateARN\":null,\"type\":\"offline\",\"name\":\"Offline\",\"startTimestamp\":\"2024-08-21T11:31:07.587Z\",\"availabilityState\":\"Offline\"},\"agentAvailabilityState\":{\"state\":\"Offline\",\"timeStamp\":\"2024-08-21T11:31:07.043Z\"},\"contacts\":[],\"snapshotTimestamp\":\"2024-08-21T11:31:08.587Z\",\"localTimestamp\":1724239868624,\"skew\":-37,\"contentLength\":330},\"configuration\":{\"name\":\"Fabio\",\"username\":\"fabio.viera@projectolympus.co.za\",\"softphoneEnabled\":true,\"softphoneAutoAccept\":false,\"extension\":\"\",\"routingProfile\":{\"name\":\"OMB_ForTestingOnly\",\"routingProfileARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/routing-profile/9c8d1e1e-a5ba-4030-8802-7bea4eed5767\",\"defaultOutboundQueue\":{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/58a44eea-9a9e-4d7b-850a-c67270b0dee8\",\"name\":\"BasicQueue\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/58a44eea-9a9e-4d7b-850a-c67270b0dee8\"},\"channelConcurrencyMap\":{\"CHAT\":1,\"TASK\":1,\"VOICE\":1},\"queues\":[{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/add47976-462d-4640-934b-cad54e50ae1b\",\"name\":\"OMB_FAIS_Queue_Zulu\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/add47976-462d-4640-934b-cad54e50ae1b\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ceb7b73a-d69e-4100-8849-6a302439c2ac\",\"name\":\"OMB_Fraud_Queue_Xhosa\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ceb7b73a-d69e-4100-8849-6a302439c2ac\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/bdb60f56-20ec-45c3-86bc-80b29f4ce386\",\"name\":\"OMB_Collections_Afrikaans\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/bdb60f56-20ec-45c3-86bc-80b29f4ce386\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/5d9f9a89-c088-42db-93d1-862dd03c61df\",\"name\":\"OMB_General_Xhosa\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/5d9f9a89-c088-42db-93d1-862dd03c61df\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/387995ee-e393-47e8-8558-c22288a798cf\",\"name\":\"OMB_Card_Zulu\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/387995ee-e393-47e8-8558-c22288a798cf\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9b61afc6-2097-4f06-85be-1a9a55b07d10\",\"name\":\"OMB_FAIS_Queue_Afrikaans\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9b61afc6-2097-4f06-85be-1a9a55b07d10\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/31cd0089-1bb1-40d4-af78-bac6cc3a5928\",\"name\":\"OMB_FAIS_Queue\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/31cd0089-1bb1-40d4-af78-bac6cc3a5928\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ed305883-7592-4b6c-826c-c160e92ae06f\",\"name\":\"OMB_Transactions\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ed305883-7592-4b6c-826c-c160e92ae06f\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/e2506e8f-b5e9-46b2-bb3d-923953fd723f\",\"name\":\"OMB_Complaints_Xhosa\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/e2506e8f-b5e9-46b2-bb3d-923953fd723f\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9078cea1-c292-412c-9495-6f13d821bf14\",\"name\":\"OMB_Card_Xhosa\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9078cea1-c292-412c-9495-6f13d821bf14\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/b764cb46-bd74-4995-9d0e-2c838000721f\",\"name\":\"OMB_Transactions_Afrikaans\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/b764cb46-bd74-4995-9d0e-2c838000721f\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/c8d18707-d7fe-4729-a5f1-0ac08da37f48\",\"name\":\"OMB_Complaints\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/c8d18707-d7fe-4729-a5f1-0ac08da37f48\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/db368c22-5381-4ea1-a196-a8d9abcd7521\",\"name\":\"OMB_Card\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/db368c22-5381-4ea1-a196-a8d9abcd7521\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/23f1c9b0-4b08-4e73-99b7-b63054538546\",\"name\":\"OMB_Fraud_Queue_Afrikaans\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/23f1c9b0-4b08-4e73-99b7-b63054538546\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/bd7fcc97-7332-4fd0-a96d-85370d9f8d0a\",\"name\":\"OMB_Fraud_Queue\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/bd7fcc97-7332-4fd0-a96d-85370d9f8d0a\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9c8a3bac-aec5-4cb8-86af-0967fead67e0\",\"name\":\"OMB_Collections\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9c8a3bac-aec5-4cb8-86af-0967fead67e0\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/7a6c2086-8116-44f1-9444-346d89dde972\",\"name\":\"OMB_Complaints_Afrikaans\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/7a6c2086-8116-44f1-9444-346d89dde972\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/8ab43490-718d-4e0a-8b2b-8e339c1fc764\",\"name\":\"OMB_General\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/8ab43490-718d-4e0a-8b2b-8e339c1fc764\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ca1e1348-89ab-44b3-a9f6-e3f27f7e1faa\",\"name\":\"OMB_Fraud_Queue_Zulu\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ca1e1348-89ab-44b3-a9f6-e3f27f7e1faa\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/dde499fc-5f4c-46ca-89b9-b25134608d1f\",\"name\":\"OMB_Transactions_Zulu\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/dde499fc-5f4c-46ca-89b9-b25134608d1f\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/2150e679-10ad-475b-a2d8-4e3b0ab2b4f4\",\"name\":\"OMB_General_Zulu\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/2150e679-10ad-475b-a2d8-4e3b0ab2b4f4\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/d4b2beb9-3945-4251-a2c5-f67852185bfb\",\"name\":\"OMB_Complaints_Zulu\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/d4b2beb9-3945-4251-a2c5-f67852185bfb\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/c09adbc6-5468-4b56-830e-090c79b72d84\",\"name\":\"OMB_Transactions_Xhosa\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/c09adbc6-5468-4b56-830e-090c79b72d84\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/a4f75b67-92af-4122-8d77-6ff6ecb0e8d8\",\"name\":\"OMB_General_Afrikaans\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/a4f75b67-92af-4122-8d77-6ff6ecb0e8d8\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/7b042936-7776-4284-85cd-4e4288cc1779\",\"name\":\"OMB_Collections_Xhosa\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/7b042936-7776-4284-85cd-4e4288cc1779\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/cd4da6fa-64a4-4840-9c76-bba08ac564a7\",\"name\":\"OMB_FAIS_Queue_Xhosa\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/cd4da6fa-64a4-4840-9c76-bba08ac564a7\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/58e42ee2-8409-4702-bfbc-fc7145518f9c\",\"name\":\"OMB_Card_Afrikaans\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/58e42ee2-8409-4702-bfbc-fc7145518f9c\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/68ccd4c6-bded-4558-a155-483e01afd4cb\",\"name\":\"OMB_Collections_Zulu\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/68ccd4c6-bded-4558-a155-483e01afd4cb\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/agent/e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4\",\"name\":null,\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/agent/e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4\"}],\"routingProfileId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/routing-profile/9c8d1e1e-a5ba-4030-8802-7bea4eed5767\"},\"agentPreferences\":{},\"agentARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/agent/e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4\",\"permissions\":[\"outboundCall\",\"voiceId\",\"ccpRealtimeContactLens\",\"contactRecording\",\"audioDeviceSettings\"],\"agentStates\":[{\"agentStateARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/agent-state/6d10bbcf-37dc-4431-a15e-c1206cd0bb60\",\"type\":\"routable\",\"name\":\"Available\",\"startTimestamp\":null},{\"agentStateARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/agent-state/919b4dfa-a866-4a7f-8edc-91eecede275c\",\"type\":\"offline\",\"name\":\"Offline\",\"startTimestamp\":null}],\"dialableCountries\":[\"gb\",\"za\",\"us\"]}}}}]",
+        "line": 51,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[TAPS] Post messaging request to SW because we are isConnected true or isAcknowledged false",
+        "time": "2024-08-21T11:31:08.729Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[{\"event\":\"AgentStateChange\",\"data\":{\"oldState\":\"Init\",\"newState\":\"Offline\",\"agentId\":\"e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4\",\"agent\":{\"snapshot\":{\"state\":{\"agentStateARN\":null,\"type\":\"offline\",\"name\":\"Offline\",\"startTimestamp\":\"2024-08-21T11:31:07.587Z\",\"availabilityState\":\"Offline\"},\"agentAvailabilityState\":{\"state\":\"Offline\",\"timeStamp\":\"2024-08-21T11:31:07.043Z\"},\"contacts\":[],\"snapshotTimestamp\":\"2024-08-21T11:31:08.587Z\",\"localTimestamp\":1724239868624,\"skew\":-37,\"contentLength\":330},\"configuration\":{\"name\":\"Fabio\",\"username\":\"fabio.viera@projectolympus.co.za\",\"softphoneEnabled\":true,\"softphoneAutoAccept\":false,\"extension\":\"\",\"routingProfile\":{\"name\":\"OMB_ForTestingOnly\",\"routingProfileARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/routing-profile/9c8d1e1e-a5ba-4030-8802-7bea4eed5767\",\"defaultOutboundQueue\":{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/58a44eea-9a9e-4d7b-850a-c67270b0dee8\",\"name\":\"BasicQueue\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/58a44eea-9a9e-4d7b-850a-c67270b0dee8\"},\"channelConcurrencyMap\":{\"CHAT\":1,\"TASK\":1,\"VOICE\":1},\"queues\":[{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/add47976-462d-4640-934b-cad54e50ae1b\",\"name\":\"OMB_FAIS_Queue_Zulu\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/add47976-462d-4640-934b-cad54e50ae1b\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ceb7b73a-d69e-4100-8849-6a302439c2ac\",\"name\":\"OMB_Fraud_Queue_Xhosa\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ceb7b73a-d69e-4100-8849-6a302439c2ac\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/bdb60f56-20ec-45c3-86bc-80b29f4ce386\",\"name\":\"OMB_Collections_Afrikaans\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/bdb60f56-20ec-45c3-86bc-80b29f4ce386\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/5d9f9a89-c088-42db-93d1-862dd03c61df\",\"name\":\"OMB_General_Xhosa\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/5d9f9a89-c088-42db-93d1-862dd03c61df\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/387995ee-e393-47e8-8558-c22288a798cf\",\"name\":\"OMB_Card_Zulu\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/387995ee-e393-47e8-8558-c22288a798cf\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9b61afc6-2097-4f06-85be-1a9a55b07d10\",\"name\":\"OMB_FAIS_Queue_Afrikaans\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9b61afc6-2097-4f06-85be-1a9a55b07d10\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/31cd0089-1bb1-40d4-af78-bac6cc3a5928\",\"name\":\"OMB_FAIS_Queue\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/31cd0089-1bb1-40d4-af78-bac6cc3a5928\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ed305883-7592-4b6c-826c-c160e92ae06f\",\"name\":\"OMB_Transactions\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ed305883-7592-4b6c-826c-c160e92ae06f\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/e2506e8f-b5e9-46b2-bb3d-923953fd723f\",\"name\":\"OMB_Complaints_Xhosa\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/e2506e8f-b5e9-46b2-bb3d-923953fd723f\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9078cea1-c292-412c-9495-6f13d821bf14\",\"name\":\"OMB_Card_Xhosa\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9078cea1-c292-412c-9495-6f13d821bf14\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/b764cb46-bd74-4995-9d0e-2c838000721f\",\"name\":\"OMB_Transactions_Afrikaans\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/b764cb46-bd74-4995-9d0e-2c838000721f\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/c8d18707-d7fe-4729-a5f1-0ac08da37f48\",\"name\":\"OMB_Complaints\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/c8d18707-d7fe-4729-a5f1-0ac08da37f48\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/db368c22-5381-4ea1-a196-a8d9abcd7521\",\"name\":\"OMB_Card\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/db368c22-5381-4ea1-a196-a8d9abcd7521\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/23f1c9b0-4b08-4e73-99b7-b63054538546\",\"name\":\"OMB_Fraud_Queue_Afrikaans\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/23f1c9b0-4b08-4e73-99b7-b63054538546\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/bd7fcc97-7332-4fd0-a96d-85370d9f8d0a\",\"name\":\"OMB_Fraud_Queue\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/bd7fcc97-7332-4fd0-a96d-85370d9f8d0a\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9c8a3bac-aec5-4cb8-86af-0967fead67e0\",\"name\":\"OMB_Collections\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9c8a3bac-aec5-4cb8-86af-0967fead67e0\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/7a6c2086-8116-44f1-9444-346d89dde972\",\"name\":\"OMB_Complaints_Afrikaans\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/7a6c2086-8116-44f1-9444-346d89dde972\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/8ab43490-718d-4e0a-8b2b-8e339c1fc764\",\"name\":\"OMB_General\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/8ab43490-718d-4e0a-8b2b-8e339c1fc764\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ca1e1348-89ab-44b3-a9f6-e3f27f7e1faa\",\"name\":\"OMB_Fraud_Queue_Zulu\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ca1e1348-89ab-44b3-a9f6-e3f27f7e1faa\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/dde499fc-5f4c-46ca-89b9-b25134608d1f\",\"name\":\"OMB_Transactions_Zulu\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/dde499fc-5f4c-46ca-89b9-b25134608d1f\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/2150e679-10ad-475b-a2d8-4e3b0ab2b4f4\",\"name\":\"OMB_General_Zulu\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/2150e679-10ad-475b-a2d8-4e3b0ab2b4f4\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/d4b2beb9-3945-4251-a2c5-f67852185bfb\",\"name\":\"OMB_Complaints_Zulu\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/d4b2beb9-3945-4251-a2c5-f67852185bfb\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/c09adbc6-5468-4b56-830e-090c79b72d84\",\"name\":\"OMB_Transactions_Xhosa\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/c09adbc6-5468-4b56-830e-090c79b72d84\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/a4f75b67-92af-4122-8d77-6ff6ecb0e8d8\",\"name\":\"OMB_General_Afrikaans\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/a4f75b67-92af-4122-8d77-6ff6ecb0e8d8\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/7b042936-7776-4284-85cd-4e4288cc1779\",\"name\":\"OMB_Collections_Xhosa\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/7b042936-7776-4284-85cd-4e4288cc1779\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/cd4da6fa-64a4-4840-9c76-bba08ac564a7\",\"name\":\"OMB_FAIS_Queue_Xhosa\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/cd4da6fa-64a4-4840-9c76-bba08ac564a7\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/58e42ee2-8409-4702-bfbc-fc7145518f9c\",\"name\":\"OMB_Card_Afrikaans\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/58e42ee2-8409-4702-bfbc-fc7145518f9c\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/68ccd4c6-bded-4558-a155-483e01afd4cb\",\"name\":\"OMB_Collections_Zulu\",\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/68ccd4c6-bded-4558-a155-483e01afd4cb\"},{\"queueARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/agent/e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4\",\"name\":null,\"queueId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/agent/e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4\"}],\"routingProfileId\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/routing-profile/9c8d1e1e-a5ba-4030-8802-7bea4eed5767\"},\"agentPreferences\":{},\"agentARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/agent/e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4\",\"permissions\":[\"outboundCall\",\"voiceId\",\"ccpRealtimeContactLens\",\"contactRecording\",\"audioDeviceSettings\"],\"agentStates\":[{\"agentStateARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/agent-state/6d10bbcf-37dc-4431-a15e-c1206cd0bb60\",\"type\":\"routable\",\"name\":\"Available\",\"startTimestamp\":null},{\"agentStateARN\":\"arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/agent-state/919b4dfa-a866-4a7f-8edc-91eecede275c\",\"type\":\"offline\",\"name\":\"Offline\",\"startTimestamp\":null}],\"dialableCountries\":[\"gb\",\"za\",\"us\"]}}}}]",
+        "line": 52,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: configuration::ringer_device_changed",
+        "time": "2024-08-21T11:31:08.733Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] ringtoneType voice successfully set to deviceid default",
+        "time": "2024-08-21T11:31:08.735Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 53,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] ringtoneType chat successfully set to deviceid default",
+        "time": "2024-08-21T11:31:08.736Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 54,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] ringtoneType task successfully set to deviceid default",
+        "time": "2024-08-21T11:31:08.736Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 55,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] ringtoneType queue_callback successfully set to deviceid default",
+        "time": "2024-08-21T11:31:08.736Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 56,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "ERROR",
+        "text": "Ringtone load error: ",
+        "time": "2024-08-21T11:31:08.737Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 57,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: api_response",
+        "time": "2024-08-21T11:31:08.789Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: webSocket::subscription_update",
+        "time": "2024-08-21T11:31:08.792Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "screenRecorder",
+        "level": "INFO",
+        "text": "received worker event AgentStateChange for agent e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4 changed from oldStage Init to newState Offline",
+        "time": "2024-08-21T11:31:08.860Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 58,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "screenRecorder",
+        "level": "INFO",
+        "text": "received agentId from CCP is e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "time": "2024-08-21T11:31:08.860Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 59,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "screenRecorder",
+        "level": "INFO",
+        "text": "cannot find clientApp config for agent e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4. Setting initial config in DB now...",
+        "time": "2024-08-21T11:31:08.870Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 60,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "screenRecorder",
+        "level": "INFO",
+        "text": "initial clientApp config has been set for agent e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "time": "2024-08-21T11:31:08.871Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 61,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "screenRecorder",
+        "level": "INFO",
+        "text": "clientApp is detected DISABLED. Will NOT try to connect to clientApp for now...",
+        "time": "2024-08-21T11:31:08.871Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 62,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: api_response",
+        "time": "2024-08-21T11:31:08.895Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "getDomainId: no domainId found",
+        "time": "2024-08-21T11:31:08.896Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 63,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "voiceId domainId not fetched at agent initialization",
+        "time": "2024-08-21T11:31:08.896Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[{\"err\":{\"type\":\"no_domain_id_found\",\"stack\":\"Error\\n    at r.VoiceIdError (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:642370)\\n    at Object.success (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:86979)\\n    at a._handleResponse (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:389853)\\n    at v.f (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:633124)\\n    at https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:478651\\n    at Array.forEach (<anonymous>)\\n    at b.trigger (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:478624)\\n    at l._dispatchEvent (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:610171)\\n    at MessagePort.<anonymous> (https://219572819009-connect.my.connect.aws/connect/ccp-naws/static/streams/connect-streams-min.b1d8aff9.js:1:633124)\"}}]",
+        "line": 64,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Device Settings] Call updateDeviceList with getUserMedia",
+        "time": "2024-08-21T11:31:09.113Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 65,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "Ringtone is ready to play: ",
+        "time": "2024-08-21T11:31:09.118Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 66,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "Ringtone is ready to play: ",
+        "time": "2024-08-21T11:31:09.131Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 67,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "Ringtone is ready to play: ",
+        "time": "2024-08-21T11:31:09.137Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 68,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] New Audio Input DeviceList is updated to [{\"deviceId\":\"default\",\"kind\":\"audioinput\",\"label\":\"Default - Microphone Array (Realtek(R) Audio)\",\"groupId\":\"49cb20c3dbab07e9688ce6627f3ba633944737b8f8a5bd11c1a0d2f5b790b8fc\"},{\"deviceId\":\"communications\",\"kind\":\"audioinput\",\"label\":\"Communications - Headset (2- WF-C700N) (Bluetooth)\",\"groupId\":\"8cdf3e2d5cb97b05b90b2eb98e6a35bb91cdc12517fc960b6c52c85f338cca8d\"},{\"deviceId\":\"5958d14da4bccc8380d50f6028b4f32a49d757b86a1a6b3e6313d998b06dc7bc\",\"kind\":\"audioinput\",\"label\":\"Headset (2- WF-C700N) (Bluetooth)\",\"groupId\":\"8cdf3e2d5cb97b05b90b2eb98e6a35bb91cdc12517fc960b6c52c85f338cca8d\"},{\"deviceId\":\"5f7c2d1084d5a7438236f917235b6a61d2b5dde083ae06f38507e8dcd364a0b4\",\"kind\":\"audioinput\",\"label\":\"Microphone Array (Realtek(R) Audio)\",\"groupId\":\"49cb20c3dbab07e9688ce6627f3ba633944737b8f8a5bd11c1a0d2f5b790b8fc\"}]",
+        "time": "2024-08-21T11:31:09.171Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 69,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] New Audio Output DeviceList is updated to [{\"deviceId\":\"5ffca12feb59c049f530a9a821cc953476d8eb064b509f6eb4c84fb0d9a7d982\",\"kind\":\"audiooutput\",\"label\":\"Speakers (Realtek(R) Audio)\",\"groupId\":\"49cb20c3dbab07e9688ce6627f3ba633944737b8f8a5bd11c1a0d2f5b790b8fc\"},{\"deviceId\":\"communications\",\"kind\":\"audiooutput\",\"label\":\"Communications - Headphones (2- WF-C700N) (Bluetooth)\",\"groupId\":\"2b76c5e3b384e247dd8bba8943ea4bdb8946d54b78097f85535e79b311c15cab\"},{\"deviceId\":\"9b0c34bb5d364e3016babd2b28f788c6c668d406927a38ade5fb1cddb675052c\",\"kind\":\"audiooutput\",\"label\":\"Headphones (2- WF-C700N) (Bluetooth)\",\"groupId\":\"2b76c5e3b384e247dd8bba8943ea4bdb8946d54b78097f85535e79b311c15cab\"},{\"deviceId\":\"default\",\"kind\":\"audiooutput\",\"label\":\"Default - Headphones (2- WF-C700N) (Bluetooth)\",\"groupId\":\"2b76c5e3b384e247dd8bba8943ea4bdb8946d54b78097f85535e79b311c15cab\"},{\"deviceId\":\"c2a84f6c2fe9ab173c03fb0ed8c73d145c9f84d13cf8c1fdb74aff815aee6a4a\",\"kind\":\"audiooutput\",\"label\":\"DELL S2721HN (5- HD Audio Driver for Display Audio)\",\"groupId\":\"73baae5ced30a2490c45d9f13d32eec724c905c2202cf66a8eba238bdd9b7a84\"}]",
+        "time": "2024-08-21T11:31:09.171Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 70,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] Updating speakerDeviceId due to speakerDeviceId: default, audioOutputDevices, isAgentInitialized: true, or hasAudioDeviceSettingsEnabled(): true being updated.",
+        "time": "2024-08-21T11:31:09.172Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 71,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] CCPUI calls Streams API setSpeakerDevice with default",
+        "time": "2024-08-21T11:31:09.172Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 72,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] Updating ringerDeviceId due to ringerDeviceId: default, audioOutputDevices, isAgentInitialized: true, or hasAudioDeviceSettingsEnabled(): true being updated.",
+        "time": "2024-08-21T11:31:09.172Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 73,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] CCPUI calls Streams API setRingerDevice with default",
+        "time": "2024-08-21T11:31:09.172Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 74,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: configuration::set_speaker_device",
+        "time": "2024-08-21T11:31:09.172Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] Attempting to set speaker device default",
+        "time": "2024-08-21T11:31:09.172Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 75,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: configuration::set_ringer_device",
+        "time": "2024-08-21T11:31:09.173Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] Attempting to set ringer device default",
+        "time": "2024-08-21T11:31:09.173Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 76,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] ringtoneType voice successfully set to deviceid default",
+        "time": "2024-08-21T11:31:09.173Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 77,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] ringtoneType chat successfully set to deviceid default",
+        "time": "2024-08-21T11:31:09.173Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 78,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] ringtoneType task successfully set to deviceid default",
+        "time": "2024-08-21T11:31:09.173Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 79,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] ringtoneType queue_callback successfully set to deviceid default",
+        "time": "2024-08-21T11:31:09.173Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 80,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[Audio Device Settings] Speaker device default successfully set to speaker audio element",
+        "time": "2024-08-21T11:31:09.173Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 81,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: configuration::ringer_device_changed",
+        "time": "2024-08-21T11:31:09.173Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: configuration::speaker_device_changed",
+        "time": "2024-08-21T11:31:09.173Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": "null",
+        "objects": "[]",
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "[core.proxy.connection-status-manager]: Proxy Connection Status Changed",
+        "time": "2024-08-21T11:31:08.450Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "status": "ready"
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "[engine.module.moduleLoader]: Module registration concluded. Initializing modules",
+        "time": "2024-08-21T11:31:08.454Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "loaderState": 0
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "[engine.module.moduleState]: Module ready",
+        "time": "2024-08-21T11:31:08.454Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "state": "Created",
+                "moduleType": "local",
+                "namespace": "aws.connect.clientConnection"
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "[engine.module.moduleState]: Module ready",
+        "time": "2024-08-21T11:31:08.454Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "state": "Created",
+                "moduleType": "local",
+                "namespace": "aws.connect.agent-snapshot"
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "[engine.module.moduleState]: Invoking module ready actions",
+        "time": "2024-08-21T11:31:08.454Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "count": 1,
+                "state": "Created",
+                "moduleType": "local",
+                "namespace": "aws.connect.agent-snapshot"
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "[streams.internalStream]: Handler added to InternalStream",
+        "time": "2024-08-21T11:31:08.454Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "[engine.module.moduleState]: Module ready",
+        "time": "2024-08-21T11:31:08.454Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "state": "Created",
+                "moduleType": "local",
+                "namespace": "aws.connect.streams"
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "[engine.module.moduleState]: Invoking module ready actions",
+        "time": "2024-08-21T11:31:08.454Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "count": 2,
+                "state": "Created",
+                "moduleType": "local",
+                "namespace": "aws.connect.streams"
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "[engine.module.moduleState]: Module ready",
+        "time": "2024-08-21T11:31:08.454Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "state": "Created",
+                "moduleType": "local",
+                "namespace": "aws.connect.legacy-csm"
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "[engine.module.moduleState]: Module ready",
+        "time": "2024-08-21T11:31:08.455Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "state": "Created",
+                "moduleType": "local",
+                "namespace": "aws.connect.global-resiliency"
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "[engine.module.moduleState]: Invoking module ready actions",
+        "time": "2024-08-21T11:31:08.455Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "count": 11,
+                "state": "Created",
+                "moduleType": "local",
+                "namespace": "aws.connect.global-resiliency"
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "[engine.module.moduleState]: Module ready",
+        "time": "2024-08-21T11:31:08.455Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "state": "Created",
+                "moduleType": "local",
+                "namespace": "aws.connect.contact"
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "[engine.module.moduleState]: Module ready",
+        "time": "2024-08-21T11:31:08.455Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "state": "Created",
+                "moduleType": "local",
+                "namespace": "aws.connect.user"
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "[engine.module.moduleState]: Module ready",
+        "time": "2024-08-21T11:31:08.455Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "state": "Created",
+                "moduleType": "local",
+                "namespace": "aws.connect.configuration"
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[worker.messagePortManager.activeEngineManager]: Engine attached",
+        "time": "2024-08-21T11:31:08.455Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "engineInstanceId": "b97ef219-1a93-4e54-af01-300bb26986d5"
+            }
+        ],
+        "line": 82,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "[worker.connectionLedger]: ClientConnection added",
+        "time": "2024-08-21T11:31:08.459Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "connectionId": "0126af8e-42e9-4628-8632-1ec8e7dbd6f7",
+                "connectionType": "shared-worker",
+                "count": 1
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "Creating a new Websocket connection for CCP",
+        "time": "2024-08-21T11:31:08.462Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 83,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "SharedWorker initializing with snapshot delay time of 0ms",
+        "time": "2024-08-21T11:31:08.462Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 84,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::Initializing Websocket Manager Failure callback registered ",
+        "time": "2024-08-21T11:31:08.463Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 85,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::Websocket connection open callback registered ",
+        "time": "2024-08-21T11:31:08.463Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 86,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::Websocket connection close callback registered ",
+        "time": "2024-08-21T11:31:08.463Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 87,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::Websocket connection gain callback registered ",
+        "time": "2024-08-21T11:31:08.463Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 88,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::Websocket connection lost callback registered ",
+        "time": "2024-08-21T11:31:08.463Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 89,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::Websocket subscription failure callback registered ",
+        "time": "2024-08-21T11:31:08.463Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 90,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::Websocket deep heartbeat success callback registered ",
+        "time": "2024-08-21T11:31:08.463Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 91,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::Websocket deep heartbeat failure callback registered ",
+        "time": "2024-08-21T11:31:08.463Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 92,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::Websocket topic failure callback registered ",
+        "time": "2024-08-21T11:31:08.463Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 93,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::Reset Websocket state ",
+        "time": "2024-08-21T11:31:08.463Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 94,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::Fetching new WebSocket connection configuration ",
+        "time": "2024-08-21T11:31:08.463Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 95,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: --> Calling operation 'createTransport'",
+        "time": "2024-08-21T11:31:08.463Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "[config.configManager]: Config loaded",
+        "time": "2024-08-21T11:31:08.500Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "config": {
+                    "ldasEndpoint": "https://ieluqbvv.telemetry.connect.af-south-1.amazonaws.com/prod",
+                    "lstsEndpoint": "https://qawskiqd.telemetry.connect.af-south-1.amazonaws.com/prod",
+                    "llpsEndpoint": "https://pwobfhfg.telemetry.connect.af-south-1.amazonaws.com/prod"
+                }
+            }
+        ],
+        "line": 96,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: <-- Operation 'createTransport' succeeded.",
+        "time": "2024-08-21T11:31:08.553Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "webSocketTransport": {
+                    "url": "wss://tufsuyburufn.transport.connect.af-south-1.amazonaws.com/?[redacted]",
+                    "transportLifeTimeInSeconds": 4108,
+                    "expiry": "2024-08-21T12:39:36.512Z"
+                }
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "getWebSocketUrl succeeded",
+        "time": "2024-08-21T11:31:08.553Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 97,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::Successfully fetched webSocket connection configuration ",
+        "time": "2024-08-21T11:31:08.553Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 98,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::Initializing Websocket Manager ",
+        "time": "2024-08-21T11:31:08.554Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 99,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::[initWebSocket] Primary WebSocket: NULL | Secondary WebSocket: NULL ",
+        "time": "2024-08-21T11:31:08.554Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::Establishing a primary web-socket connection ",
+        "time": "2024-08-21T11:31:08.554Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "Kicking off agent polling",
+        "time": "2024-08-21T11:31:08.555Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 100,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: --> Calling operation 'getAgentSnapshot'",
+        "time": "2024-08-21T11:31:08.555Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "Kicking off config polling",
+        "time": "2024-08-21T11:31:08.556Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 101,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: --> Calling operation 'getAgentConfiguration'",
+        "time": "2024-08-21T11:31:08.556Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "Kicking off auth token polling",
+        "time": "2024-08-21T11:31:08.556Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 102,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: <-- Operation 'getAgentConfiguration' succeeded.",
+        "time": "2024-08-21T11:31:08.613Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "configuration": {
+                    "name": "Fabio",
+                    "username": "fabio.viera@projectolympus.co.za",
+                    "softphoneEnabled": true,
+                    "softphoneAutoAccept": false,
+                    "extension": "",
+                    "routingProfile": {
+                        "name": "OMB_ForTestingOnly",
+                        "routingProfileARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/routing-profile/9c8d1e1e-a5ba-4030-8802-7bea4eed5767",
+                        "defaultOutboundQueue": {
+                            "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/58a44eea-9a9e-4d7b-850a-c67270b0dee8",
+                            "name": "BasicQueue"
+                        },
+                        "channelConcurrencyMap": {
+                            "CHAT": 1,
+                            "TASK": 1,
+                            "VOICE": 1
+                        }
+                    },
+                    "agentPreferences": {},
+                    "agentARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/agent/e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4"
+                }
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: --> Calling operation 'getAgentPermissions'",
+        "time": "2024-08-21T11:31:08.614Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: --> Calling operation 'getAgentStates'",
+        "time": "2024-08-21T11:31:08.614Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: --> Calling operation 'getDialableCountryCodes'",
+        "time": "2024-08-21T11:31:08.614Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: --> Calling operation 'getRoutingProfileQueues'",
+        "time": "2024-08-21T11:31:08.615Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: <-- Operation 'getAgentSnapshot' succeeded.",
+        "time": "2024-08-21T11:31:08.624Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "snapshot": {
+                    "state": {
+                        "agentStateARN": null,
+                        "type": "offline",
+                        "name": "Offline",
+                        "startTimestamp": "2024-08-21T11:31:07.587Z"
+                    },
+                    "agentAvailabilityState": {
+                        "state": "Offline",
+                        "timeStamp": "2024-08-21T11:31:07.043Z"
+                    },
+                    "contacts": [],
+                    "snapshotTimestamp": "2024-08-21T11:31:08.587Z"
+                },
+                "nextToken": "5/mqstjBf2/SqyI1FMM95X2wh9/EXx6iTAdpSmrdNgU=_172423986706900"
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "GET_AGENT_SNAPSHOT succeeded.",
+        "time": "2024-08-21T11:31:08.624Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "snapshot": {
+                    "state": {
+                        "agentStateARN": null,
+                        "type": "offline",
+                        "name": "Offline",
+                        "startTimestamp": "2024-08-21T11:31:07.587Z"
+                    },
+                    "agentAvailabilityState": {
+                        "state": "Offline",
+                        "timeStamp": "2024-08-21T11:31:07.043Z"
+                    },
+                    "contacts": [],
+                    "snapshotTimestamp": "2024-08-21T11:31:08.587Z",
+                    "localTimestamp": 1724239868624,
+                    "skew": -37,
+                    "contentLength": 330
+                },
+                "nextToken": "5/mqstjBf2/SqyI1FMM95X2wh9/EXx6iTAdpSmrdNgU=_172423986706900"
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Waiting to update agent until the agent configuration is available.",
+        "time": "2024-08-21T11:31:08.624Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "[agent-snapshot.snapshot-ingress]: Snapshot received",
+        "time": "2024-08-21T11:31:08.625Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "snapshotId": "333cc0fd-7a00-4ac5-b2da-6f4b6ddd523c",
+                "snapshot": {
+                    "state": {
+                        "agentStateARN": null,
+                        "type": "offline",
+                        "name": "Offline",
+                        "startTimestamp": "2024-08-21T11:31:07.587Z"
+                    },
+                    "agentAvailabilityState": {
+                        "state": "Offline",
+                        "timeStamp": "2024-08-21T11:31:07.043Z"
+                    },
+                    "contacts": [],
+                    "snapshotTimestamp": "2024-08-21T11:31:08.587Z",
+                    "localTimestamp": 1724239868624,
+                    "skew": -37,
+                    "contentLength": 330
+                }
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: --> Calling operation 'getAgentSnapshot'",
+        "time": "2024-08-21T11:31:08.625Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: <-- Operation 'getAgentPermissions' succeeded.",
+        "time": "2024-08-21T11:31:08.663Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "permissions": [
+                    "outboundCall",
+                    "voiceId",
+                    "ccpRealtimeContactLens",
+                    "contactRecording",
+                    "audioDeviceSettings"
+                ],
+                "nextToken": null
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Waiting to update agent configuration until all config data has been fetched.",
+        "time": "2024-08-21T11:31:08.663Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: <-- Operation 'getRoutingProfileQueues' succeeded.",
+        "time": "2024-08-21T11:31:08.669Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "queues": [
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/add47976-462d-4640-934b-cad54e50ae1b",
+                        "name": "OMB_FAIS_Queue_Zulu"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ceb7b73a-d69e-4100-8849-6a302439c2ac",
+                        "name": "OMB_Fraud_Queue_Xhosa"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/bdb60f56-20ec-45c3-86bc-80b29f4ce386",
+                        "name": "OMB_Collections_Afrikaans"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/5d9f9a89-c088-42db-93d1-862dd03c61df",
+                        "name": "OMB_General_Xhosa"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/387995ee-e393-47e8-8558-c22288a798cf",
+                        "name": "OMB_Card_Zulu"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9b61afc6-2097-4f06-85be-1a9a55b07d10",
+                        "name": "OMB_FAIS_Queue_Afrikaans"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/31cd0089-1bb1-40d4-af78-bac6cc3a5928",
+                        "name": "OMB_FAIS_Queue"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ed305883-7592-4b6c-826c-c160e92ae06f",
+                        "name": "OMB_Transactions"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/e2506e8f-b5e9-46b2-bb3d-923953fd723f",
+                        "name": "OMB_Complaints_Xhosa"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9078cea1-c292-412c-9495-6f13d821bf14",
+                        "name": "OMB_Card_Xhosa"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/b764cb46-bd74-4995-9d0e-2c838000721f",
+                        "name": "OMB_Transactions_Afrikaans"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/c8d18707-d7fe-4729-a5f1-0ac08da37f48",
+                        "name": "OMB_Complaints"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/db368c22-5381-4ea1-a196-a8d9abcd7521",
+                        "name": "OMB_Card"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/23f1c9b0-4b08-4e73-99b7-b63054538546",
+                        "name": "OMB_Fraud_Queue_Afrikaans"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/bd7fcc97-7332-4fd0-a96d-85370d9f8d0a",
+                        "name": "OMB_Fraud_Queue"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/9c8a3bac-aec5-4cb8-86af-0967fead67e0",
+                        "name": "OMB_Collections"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/7a6c2086-8116-44f1-9444-346d89dde972",
+                        "name": "OMB_Complaints_Afrikaans"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/8ab43490-718d-4e0a-8b2b-8e339c1fc764",
+                        "name": "OMB_General"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/ca1e1348-89ab-44b3-a9f6-e3f27f7e1faa",
+                        "name": "OMB_Fraud_Queue_Zulu"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/dde499fc-5f4c-46ca-89b9-b25134608d1f",
+                        "name": "OMB_Transactions_Zulu"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/2150e679-10ad-475b-a2d8-4e3b0ab2b4f4",
+                        "name": "OMB_General_Zulu"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/d4b2beb9-3945-4251-a2c5-f67852185bfb",
+                        "name": "OMB_Complaints_Zulu"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/c09adbc6-5468-4b56-830e-090c79b72d84",
+                        "name": "OMB_Transactions_Xhosa"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/a4f75b67-92af-4122-8d77-6ff6ecb0e8d8",
+                        "name": "OMB_General_Afrikaans"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/7b042936-7776-4284-85cd-4e4288cc1779",
+                        "name": "OMB_Collections_Xhosa"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/cd4da6fa-64a4-4840-9c76-bba08ac564a7",
+                        "name": "OMB_FAIS_Queue_Xhosa"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/58e42ee2-8409-4702-bfbc-fc7145518f9c",
+                        "name": "OMB_Card_Afrikaans"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/68ccd4c6-bded-4558-a155-483e01afd4cb",
+                        "name": "OMB_Collections_Zulu"
+                    },
+                    {
+                        "queueARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/queue/agent/e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+                        "name": null
+                    }
+                ],
+                "nextToken": null
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Waiting to update agent configuration until all config data has been fetched.",
+        "time": "2024-08-21T11:31:08.669Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: <-- Operation 'getAgentStates' succeeded.",
+        "time": "2024-08-21T11:31:08.669Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "states": [
+                    {
+                        "agentStateARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/agent-state/6d10bbcf-37dc-4431-a15e-c1206cd0bb60",
+                        "type": "routable",
+                        "name": "Available",
+                        "startTimestamp": null
+                    },
+                    {
+                        "agentStateARN": "arn:aws:connect:af-south-1:219572819009:instance/593b5508-a3ad-4596-8f50-53e5cee98275/agent-state/919b4dfa-a866-4a7f-8edc-91eecede275c",
+                        "type": "offline",
+                        "name": "Offline",
+                        "startTimestamp": null
+                    }
+                ],
+                "nextToken": null
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Waiting to update agent configuration until all config data has been fetched.",
+        "time": "2024-08-21T11:31:08.669Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: <-- Operation 'getDialableCountryCodes' succeeded.",
+        "time": "2024-08-21T11:31:08.676Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "countryCodes": [
+                    "gb",
+                    "za",
+                    "us"
+                ],
+                "nextToken": null
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::WebSocket connection established! ",
+        "time": "2024-08-21T11:31:08.711Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 103,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::[webSocketOnOpen] Primary WebSocket: OPEN | Secondary WebSocket: NULL ",
+        "time": "2024-08-21T11:31:08.711Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "INFO",
+        "text": "ADVANCED_LOG AMZ_WEB_SOCKET_MANAGER::Reset Websocket state ",
+        "time": "2024-08-21T11:31:08.711Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 104,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::Sending aws/ping deep heartbeat ",
+        "time": "2024-08-21T11:31:08.712Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::Sending heartbeat ",
+        "time": "2024-08-21T11:31:08.712Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::Scheduling WebSocket manager reconnection, after delay 4108000 ms ",
+        "time": "2024-08-21T11:31:08.712Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: --> Calling operation 'createTransport'",
+        "time": "2024-08-21T11:31:08.729Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::Heartbeat response received ",
+        "time": "2024-08-21T11:31:08.741Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::aws/ping deep heartbeat received ",
+        "time": "2024-08-21T11:31:08.753Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "AWSClient: <-- Operation 'createTransport' succeeded.",
+        "time": "2024-08-21T11:31:08.788Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [
+            {
+                "softphoneTransport": {
+                    "softphoneMediaConnections": [
+                        {
+                            "username": "1724239888:e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4/1724239867504-spqvle6d33r@219572819009/593b5508-a3ad-4596-8f50-53e5cee98275",
+                            "credential": "[redacted]",
+                            "urls": [
+                                "turn:turnnlb-29b8f2824c2958b8.elb.af-south-1.amazonaws.com.:3478?transport=udp"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::Subscription Message received from webSocket server ",
+        "time": "2024-08-21T11:31:08.792Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "TRACE",
+        "text": "Publishing event: client_side_logs",
+        "time": "2024-08-21T11:31:13.126Z",
+        "tabId": "1724239868460-ni02bkg1kke",
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239867502-uzjv4yr56u",
+        "contextLayer": "CCP"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::Sending aws/ping deep heartbeat ",
+        "time": "2024-08-21T11:31:18.713Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::Sending heartbeat ",
+        "time": "2024-08-21T11:31:18.713Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::Heartbeat response received ",
+        "time": "2024-08-21T11:31:18.749Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::aws/ping deep heartbeat received ",
+        "time": "2024-08-21T11:31:18.758Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::Sending aws/ping deep heartbeat ",
+        "time": "2024-08-21T11:31:28.712Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::Sending heartbeat ",
+        "time": "2024-08-21T11:31:28.712Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::Heartbeat response received ",
+        "time": "2024-08-21T11:31:28.744Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    },
+    {
+        "component": "ccp",
+        "level": "DEBUG",
+        "text": "DEBUG AMZ_WEB_SOCKET_MANAGER::aws/ping deep heartbeat received ",
+        "time": "2024-08-21T11:31:28.753Z",
+        "tabId": null,
+        "exception": null,
+        "objects": [],
+        "line": 0,
+        "agentResourceId": "e4bf85d5-aaf5-4534-b47e-bee5fd58c9f4",
+        "loggerId": "1724239868452-7hgf9bxghxd",
+        "contextLayer": "SharedWorker"
+    }
+]

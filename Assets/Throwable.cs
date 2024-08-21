@@ -12,7 +12,6 @@ public class Throwable : MonoBehaviour
     private int timeAlive = 0;
     private float timer = 0f;
     private float delayAmount = 1;
-    public GameObject gameManager;
     private bool isDead = false;
 
     public int getTimeAlive() {  return timeAlive; }
@@ -46,8 +45,7 @@ public class Throwable : MonoBehaviour
     //onmouse events possible thanks to monobehaviour + collider2d
     void OnMouseDown()
     {
-        GameManager gm = gameManager.GetComponent<GameManager>();
-        gm.interacted();
+        getGM().interacted();
 
         CalculateThrowVector();
 
@@ -97,8 +95,13 @@ public class Throwable : MonoBehaviour
             Debug.Log($"Hit the attractor!!! {this.name}");
             Destroy(this.gameObject);
 
-            GameManager gm = gameManager.GetComponent<GameManager>();
-            gm.gameOver();
+            getGM().gameOver();
         }
+    }
+
+    private GameManager getGM()
+    {
+        GameObject gameManager = GameObject.Find("GameManager");
+        return gameManager.GetComponent<GameManager>();
     }
 }
