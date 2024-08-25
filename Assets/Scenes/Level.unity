@@ -688,7 +688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -841,8 +841,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 174, y: -115}
-  m_SizeDelta: {x: 160, y: 38.9}
+  m_AnchoredPosition: {x: 546.19006, y: -222}
+  m_SizeDelta: {x: 118.8198, y: 38.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &569707820
 MonoBehaviour:
@@ -1510,8 +1510,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.3962402, y: 107}
-  m_SizeDelta: {x: 1238.4, y: 100}
+  m_AnchoredPosition: {x: 312, y: -218.4}
+  m_SizeDelta: {x: 400, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1054175280
 MonoBehaviour:
@@ -1533,7 +1533,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Level complete!
+  m_text: Complete!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3df9238122d26a24c8811a0a1c8aee3d, type: 2}
   m_sharedMaterial: {fileID: 6983970252465910419, guid: 3df9238122d26a24c8811a0a1c8aee3d, type: 2}
@@ -1560,8 +1560,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 132.8
-  m_fontSizeBase: 132.8
+  m_fontSize: 72
+  m_fontSizeBase: 72
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3164,8 +3164,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 510.4, y: 223}
-  m_SizeDelta: {x: 134.2, y: 36.6085}
+  m_AnchoredPosition: {x: 479.2, y: 223}
+  m_SizeDelta: {x: 212.3, y: 36.6085}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1917787675
 MonoBehaviour:
@@ -3187,7 +3187,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Level = 99
+  m_text: 'Level = 99 of 99
 
     Goal = 99s'
   m_isRightToLeft: 0
@@ -3223,7 +3223,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -3381,7 +3381,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -93, y: -115}
+  m_AnchoredPosition: {x: -456, y: -222}
   m_SizeDelta: {x: 299, y: 39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2138774504

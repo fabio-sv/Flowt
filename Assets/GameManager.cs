@@ -24,9 +24,16 @@ public class GameManager : MonoBehaviour
     int activeLevelIndex = 0;
     private List<Level> Levels = new List<Level>()
     {
-        new(5, new Vector3(1, 0, 0), new List<Vector3> { new(0, 0, 0) }),
+        new(10, new Vector3(1, 0, 0), new List<Vector3> { new(0, 0, 0) }),
         new(10, new Vector3(0, 0, 0), new List<Vector3> { new(-1, 0, 0), new(1, 0, 0) }),
-        new(10, new Vector3(0, 0, 0), new List<Vector3> { new(-1, 0.5f, 0), new(-1, -0.5f, 0), new Vector3(1, 0, 0)}),
+        new(8, new Vector3(0, 0, 0), new List<Vector3> { new(-1, 0.5f, 0), new(-1, -0.5f, 0), new(1.5f, 0, 0)}),
+        new(10, new Vector3(-1.5f, 0.5f, 0), new List<Vector3> { new(-1, -0.75f, 0), new(0, 0, 0), new(1, 0.75f, 0) }),
+        new(6, new Vector3(0, 0, 0), new List<Vector3> { new(-0.5f,-0.5f, 0), new(-0.5f, 0.5f, 0), new(0.5f, 0.5f, 0), new(0.5f, -0.5f, 0) }),
+        new(12, new Vector3(2, 0, 0), new List<Vector3> { new(-0.25f, 0, 0), new(0.25f, 0, 0) }),
+        new(10, new Vector3(0, 0, 0), new List<Vector3> { new(-1, 0, 0), new(1, 0.75f, 0), new(1, 0.25f, 0), new(1, -0.25f, 0), new(1, -0.75f, 0) }),
+        new(10, new Vector3(-1, 0.35f, 0), new List<Vector3> { new(-1, 0, 0), new(1, 0.5f, 0), new(1, -0.5f, 0) }),
+        new(10, new Vector3(-1.75f, 0, 0), new List<Vector3> { new(-1, 0, 0), new(0, 0, 0), new(1, 0, 0) }),
+        new(20, new Vector3(0, 0, 0), new List<Vector3> { new(0, 0.75f, 0), new(1, -0.75f, 0), new(-1, -0.75f, 0) })
     };
 
     private bool gameIsOver = false;
@@ -69,11 +76,17 @@ public class GameManager : MonoBehaviour
 
     public void backToHomeScreen()
     {
+        Reset();
         SceneManager.LoadScene("Main Menu");
     }
 
     public void gameOver()
     {
+        if (gameIsWon)
+        {
+            return;
+        }
+
         gameIsOver = true;
         
         getThrowable().Pause();
@@ -93,8 +106,10 @@ public class GameManager : MonoBehaviour
         if (!hasNextLevel())
         {
             GameObject nextButton = GameObject.Find("NextLevelButton");
-            nextButton.SetActive(false);
-            planet.SetActive(false);
+            if (nextButton != null)
+            {
+                nextButton.SetActive(false);
+            }
         }
     }
 
@@ -119,7 +134,7 @@ public class GameManager : MonoBehaviour
         }
 
         Level levelToLoad = Levels[levelNumber];
-        gameTextBox.text = $"Level = {activeLevelIndex + 1}\nGoal = {levelToLoad.GoalTime.ToString()}s";
+        gameTextBox.text = $"Level = {activeLevelIndex + 1} of {Levels.Count}\nGoal = {levelToLoad.GoalTime.ToString()}s";
 
         Debug.Log(throwable);
 
