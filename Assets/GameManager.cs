@@ -61,11 +61,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // To fix or remove
-    public void startGame()
+    public void restartGame()
     {
-        const string GAME_SCENE = "Level";
-        SceneManager.LoadScene(GAME_SCENE);
+        Reset();
+        LoadLevel(activeLevelIndex);
+    }
+
+    public void backToHomeScreen()
+    {
+        SceneManager.LoadScene("Main Menu");
     }
 
     public void gameOver()
@@ -90,7 +94,7 @@ public class GameManager : MonoBehaviour
         {
             GameObject nextButton = GameObject.Find("NextLevelButton");
             nextButton.SetActive(false);
-
+            planet.SetActive(false);
         }
     }
 
@@ -115,7 +119,7 @@ public class GameManager : MonoBehaviour
         }
 
         Level levelToLoad = Levels[levelNumber];
-        gameTextBox.text = $"Goal: {levelToLoad.GoalTime.ToString()}s";
+        gameTextBox.text = $"Level = {activeLevelIndex + 1}\nGoal = {levelToLoad.GoalTime.ToString()}s";
 
         Debug.Log(throwable);
 
